@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.pageHeaders{
+    background:white;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.nameandlinks{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    background: yellow;
+}
+
+.nameHeader{
+    background:rgb(45, 161, 150);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-top: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    float: left
+}
+
+nav{
+    margin-top: 40px;
+    float: right;
+}
+
+nav a{
+    font-size: medium;
+    color: green;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionContainers{
+    background: grey;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.section{
+    margin: 0 auto 0 auto;
+    width: 960px;
+    background: blue;
+    float: left;
+    
+}
+
+#pictureofMe{
+    float:left;
+    height: 15%;
+    width: 15%;
+}
+
+#descriptionofMe{
+    display: inline;
+}
