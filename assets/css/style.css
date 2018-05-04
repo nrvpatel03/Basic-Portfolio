@@ -10,13 +10,15 @@
     margin: 0 auto;
     height: 90px;
     width: 960px;
-    background: yellow;
+    background: #ffffff;
 }
 
 .nameHeader{
-    background:rgb(45, 161, 150);
+    background:#4aaaa5;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     width: 200px;
     margin-top: 0;
     margin-bottom: 0;
@@ -25,7 +27,7 @@
     height: 90px;
     line-height: 90px;
     text-align: center;
-    float: left
+    float: left;
 }
 
 nav{
@@ -35,18 +37,27 @@ nav{
 
 nav a{
     font-size: medium;
-    color: green;
+    color: #777777;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+.nava{
     text-decoration: none;
-    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: #dddddd solid 2px;
+}
+.nava:hover{
+    color:blue;
+}
+
+nav a:first-child{
+    border-left: none;
 }
 
 .sectionContainers{
-    background: grey;
+    background-image: url('../images/dust_scratches.png');
     padding-top: 15px;
     margin-top: 0px;
     height: 1000px;
@@ -60,16 +71,19 @@ a{
     padding-right: 15px;
     height: 650px;
     width: 930px;
-    background: blue;
+    background:#ffffff;
     
 }
 
 .sectionHeadings{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0px;
+    margin-bottom: 20px;
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: black solid 1px;
+    border-bottom: #dddddd solid 3px;
 }
 
 #pictureofMe{
@@ -82,6 +96,7 @@ a{
 
 #descriptionofMe{
     display: inline;
+    color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     line-height: 38px;
@@ -97,6 +112,12 @@ a{
     width: 930px;
 }
 
+#form{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
 #submitButton{
     margin-top: 40px;
     padding: 10px;
@@ -107,22 +128,51 @@ a{
     font-size: large;
 }
 #time4colorboximagediv{
+    margin-top: 30px;
     position: relative;
     width: 250px;
     height: auto;
     background-color: white;
 }
 #time4colorboxText{
-    background: tomato;
+    background: #4aaaa5;
     position: absolute;
     height: auto;
     top: 140px;
     right: 0;
     width: 100%;
     text-align: center;
-    font-size: 18px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
+#time4colorboxlink{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#time4colorboxlink:hover{
+    color: blue;
+}
+
 #time4colorboximage{
     width: 250px;
     height: auto;
+}
+
+.footerdiv{
+    height: 100px;
+    width: 100%;
+    background: #777777;
+    border-top: #4aaaa5 solid 2px;
+}
+
+
+.footertext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 75px;
+    font-size: 20px;
+    text-align: center;
 }
